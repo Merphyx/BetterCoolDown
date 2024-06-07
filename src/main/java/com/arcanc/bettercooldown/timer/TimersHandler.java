@@ -66,26 +66,21 @@ public class TimersHandler
         BetterCoolDown.LOGGER.info("All timers saved");
     }
 
-    public static void itemUse(PlayerEntity playerEntity, Hand hand)
-    {
+    public static void handleInteraction(PlayerEntity playerEntity, Hand hand, boolean isBlockInteraction, BlockPos blockPos) {
         World world = playerEntity.getWorld();
-        if (world.isClient() && !playerEntity.isSpectator())
-        {
+        if (world.isClient() && !playerEntity.isSpectator()) {
             ItemStack stack = playerEntity.getStackInHand(hand);
-
-            timers.forEach((uuid, timer) ->
-            {
+            timers.forEach((uuid, timer) -> {
                 Item timerItem = Registries.ITEM.get(timer.getItem());
-
                 NbtCompound compound = stack.getOrCreateNbt();
                 int modelData = 0;
                 if (compound.contains("CustomModelData"))
                     modelData = compound.getInt("CustomModelData");
-                if (stack.getItem() == timerItem && modelData == timer.getModelData())
-                {
+                if (stack.getItem() == timerItem && modelData == timer.getModelData()) {
                     timer.start();
                 }
             });
         }
     }
+    
 }
