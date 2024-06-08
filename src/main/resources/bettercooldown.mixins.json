@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.arcanc.bettercooldown.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ResizeHook"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ItemUseHook"
+  ]
+}
