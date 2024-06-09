@@ -1,0 +1,29 @@
+{
+  "key.categories.bettercooldown": "BetterCoolDown Settings",
+  "key.bettercooldown.open_timers_screen": "Timer Options",
+  "key.bettercooldown.hud_switch": "Show/Hide the timer HUD",
+  "key.bettercooldown.background_switch": "Toggle Background",
+  "gui.bettercooldown.description.all_timers": "Timer overview",
+  "gui.bettercooldown.description.new_timer": "Add new timer",
+  "gui.bettercooldown.description.list": "List of all timers:",
+  "gui.bettercooldown.description.button.edit.tooltip": "Edit timer",
+  "gui.bettercooldown.description.button.delete.tooltip": "Delete timer",
+  "gui.bettercooldown.description.timer_name": "Timer Name:",
+  "gui.bettercooldown.description.timer_name.tooltip": "Name the timer.",
+  "gui.bettercooldown.description.timer_name.edit.tooltip": "Name the timer.",
+  "gui.bettercooldown.description.item_name": "Item Id:",
+  "gui.bettercooldown.description.item_name.tooltip": "Example: minecraft:stick",
+  "gui.bettercooldown.description.item_name.edit.tooltip": "Example: minecraft:stick",
+  "gui.bettercooldown.description.model_data": "CustomModelData Value:",
+  "gui.bettercooldown.description.model_data.tooltip": "Only provide the \"Id number\" of the model/CustomModelData value here.\n§cWARNING NUMBERS ONLY ALLOWED!",
+  "gui.bettercooldown.description.model_data.edit.tooltip": "Only provide the \"Id number\" of the model/CustomModelData value here.\n§cWARNING NUMBERS ONLY ALLOWED!",
+  "gui.bettercooldown.description.time": "Timer Duration:",
+  "gui.bettercooldown.description.time.tooltip": "§cHH:MM:SS:MS§r\nExample: \"30:000\" are 30 sec.",
+  "gui.bettercooldown.description.time.edit.tooltip": "§cHH:MM:SS:MS§r\nExample: \"30:000\" are 30 sec.)",
+  "gui.bettercooldown.description.position": "Position",
+  "gui.bettercooldown.description.add_timer": "Add timer",
+  "gui.bettercooldown.description.edit_timer": "Done",
+  "gui.bettercooldown.description.timer_time_format": "§aReady"
+}
+
+
